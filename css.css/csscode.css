@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    border:3px solid red;
+    flex-direction:column;
+    gap: 2px;
+    float: right;
+    width:40%
+}
+.sidebar{
+float:left;
+width:50%;
+border: 4px solid palevioletred;
+}
+.footer{
+    height:80px;
+    width:100%;
+    background-color: aqua;
+    border:3px snow green;
+    display:block;
+    text-align: center;
+    margin: 10px;
+    float: inline-end;
+    padding: 20px;
+
+}

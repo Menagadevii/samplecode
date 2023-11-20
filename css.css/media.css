@@ -1,0 +1,18 @@
+body{
+  background-color: pink;
+}
+
+  .bg{
+    padding: 15px;
+    background-color:orange;
+    border: 2px solid white;
+    color: chartreuse;
+
+}
+/* color{28.02}*/
+div.container{
+    background-color: darkorchid;
+    border: 2px solid yellowgreen;
+}
+  
+  

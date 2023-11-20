@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>gradints</title>
+        <style>
+        #a{
+            background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+            margin: 40px;
+            height: 100px;
+
+        }
+        #b{
+            background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+         height: 120px;
+    
+        }
+        #c{
+            background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+            height: 100px;
+
+        }
+        #d{
+            background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+            border-radius:50%;
+            width: 200px;
+            height: 200px;
+            color: red;
+
+        
+        }
+        #e{
+            background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+            height: 200px;
+            width: 100px;
+        }
+        #f{
+            background-image: repeating-conic-gradient(red 10%, yellow 20%);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+  border: 20px;
+
+
+        }
+        </style>
+    </head>
+    <body>
+        <h2>first linear gradients</h2>
+        <div id="a"></div>
+        <h2>second linear gradients</h2>
+        <div id="b"></div>
+        <h3>radial</h3>
+        <div id="c"></div>
+        <h3> repeating radial</h3>
+        <div id="d"></div>
+        <h4>conic</h4>
+        <div id="e"></div>
+        <h4>repeating conic</h4>
+        <div id="f"></div>
+    </body>
+</html>

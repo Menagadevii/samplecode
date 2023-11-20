@@ -1,0 +1,60 @@
+.outerbox{
+    background-color: aqua;
+    min-height: 400px;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    width: 170px;
+    height: 170px;
+    background-color: chartreuse;
+    flex-direction: row;
+    border: 2px solid orange;
+
+}
+.box1{
+    flex:1 2 0px;
+}
+.box2{
+    flex:1 2 0px;
+}
+.box3{
+    flex:1 2 0px;
+}
+.box4{
+    flex:1 2 0px;
+}
+.box5{
+    flex:1 2 0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    padding:10px;
+}
+.para1{
+    background-color: azure;
+    flex:1;
+    order:2;
+}
+.para2{
+    background-color:darkmagenta;
+    flex:1;
+    order:3;
+}
+
+.para2{
+    background-color:plum;
+    flex:1;
+    order:4;
+}
+.para3{
+    background-color: yellowgreen;
+    flex:1;
+    order:1;
+}

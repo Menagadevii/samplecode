@@ -1,0 +1,63 @@
+#box{
+    color: aqua;
+    padding: 10px 15px;
+    border-radius: 7px;
+    background-color: palevioletred;
+}
+    
+#box:hover{
+    transition: all 0.2s linear;
+    color: black;
+}
+.shap{
+    padding: 15px;
+    margin: 10px;
+   
+    
+}
+.shap:hover{
+    box-shadow: 3px 6px red;
+    color: red;
+}
+.menaga{
+    background-color: yellow;
+    padding:10px;
+    border:2px solid red;
+    border-radius: 15px;
+    box-shadow: 5px 6px 30px 5px  blue;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 10px,20px,15p,20px red;
+  }
+
+   

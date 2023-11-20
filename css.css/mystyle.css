@@ -1,0 +1,15 @@
+p{
+    background-image:url('../../../Documents/vs code/image/rose.jpg');
+    border: 5px solid green;
+    height: 1000000px;
+    width: 50000px;
+
+    
+}
+h1{
+    background-color: aquamarine;
+    border: 5px;
+    background-image: url('../image/rose.jpg');
+    height: 100;
+    width: 100;
+}
