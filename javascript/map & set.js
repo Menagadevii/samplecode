@@ -3,11 +3,11 @@ let mind=new Map([
     ["age",22],
     ["no",50], 
     ["key","val"]])
-    document.write(mind,"<br>")
+    /*document.write(mind,"<br>")
     document.write(mind.get("name"),"<br>")
     document.write(mind.get("age"),"<br>")
     document.write(mind.get("no"),"<br>")
-    document.write("<hr>")
+    document.write("<hr>")*/
 
 
     let lap=new Map();
