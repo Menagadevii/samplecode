@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Game</title>
+  <style>
+    /* Add some basic styling */
+    #game-board {
+      border: 1px solid #000;
+      width: 400px;
+      height: 400px;
+      margin: 20px auto;
+      position: relative;
+    }
+    .snake-part {
+      width: 20px;
+      height: 20px;
+      background-color: #333;
+      position: absolute;
+    }
+    .food {
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      position: absolute;
+    }
+  </style>
+</head>
+<body>
+  <div id="game-board"></div>
+  <script src="snake.js"></script>
