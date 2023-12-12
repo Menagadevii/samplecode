@@ -5,7 +5,7 @@ if( age > 18 )
  
 }
 document.write("<hr>")
-var weight = 11; 
+var weight = 11;
 if( weight > 18 )
 {
  document.write("Qualifies for driving","<br>"); 
@@ -19,7 +19,7 @@ document.write("<hr>")
 var book = "economics";
  if( book == "history" )
 { 
-document.write("History Book",); 
+document.write("History Book"); 
 }
 else if( book == "maths")
 { 
